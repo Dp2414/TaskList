@@ -3,6 +3,9 @@
 font-family: sans-serif;
 
 }
+.h1{
+    margin-left: -60px;
+}
 nav{
     
     background-color:white;
@@ -14,7 +17,9 @@ nav{
     
  }
  
-
+.card1>h3{
+    padding: 0px !important;
+}
 
 li>h1{
     color: #424242;
@@ -49,7 +54,7 @@ h4{
  .btn{
     display: flex;
     gap: 5px;
-    margin-right: 260px;
+    margin-right: 177px;
     border: none;
     background: #f7f7f7;
     cursor: pointer;
@@ -81,11 +86,12 @@ h4{
 /*modifying horizontal line <hr>*/
 .hr1{
     opacity: 0.4;
+    width: 100%;
 }
 .line{
    color: rgb(255, 254, 254);
    
-   width: 248px;
+   width: 115%;
    margin-left:-20px;
 }
 hr{

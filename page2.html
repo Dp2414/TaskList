@@ -16,6 +16,9 @@
  font-family: sans-serif;
  
  }
+ .h1{
+    margin-left: -60px;
+}
  nav{
      
      background-color:white;
@@ -61,7 +64,7 @@
   .btn{
      display: flex;
      gap: 5px;
-     margin-right: 260px;
+    margin-right: 177px;
      border: none;
      background: #f7f7f7;
      cursor: pointer;
@@ -93,7 +96,7 @@
  /*modifying horizontal line <hr>*/
  .line{
     
-    width: 248px;
+    width: 115%;
     margin-left:-20px;
  }
  hr{
@@ -209,12 +212,12 @@
         border: 1px solid black;
         border-radius: 10px;
         position: absolute;
-        top:23%;
-        left:30%;
+        top:33%;
+        left:36%;
         border: 1px solid #ededed;
         border-radius: 10px;
         opacity: 1;
-        padding: 10px;
+        /* padding: 10px; */
       }
       .bigdiv {
         opacity: 0.2;
@@ -236,10 +239,11 @@
       .child {
         display: flex;
         justify-content: space-between;
-        padding: 10px;
+        align-items: center;
+        padding: 0px 0px 0px 10px;
       }
       .c {
-        width:95%;
+        width:90%;
         margin: 10px;
         background-color: #f7f7f7;
         border: #ededed;
@@ -248,7 +252,7 @@
       .addtask {
         width: 150px;
         margin-top: 10px;
-        margin-left: 250px;
+        margin-left: 268px;
         padding: 10px 30px;
         background-color: #00a5ec;
         color: white;
@@ -256,8 +260,8 @@
         border-radius: 5px;
       }
       .line2{
-        width: 425px;
-        margin-left: -9px;
+        width: 100%;
+       
         opacity: 0.2;
         
 
@@ -265,125 +269,125 @@
     </style>
   </head>
   <body>
-    <div class="bigdiv">
-    
+      <div class="bigdiv">
+
      
-      <nav>
-        <ul>
-          <li><h1>Tasks <span class="one">List</span></h1></li>
-        </ul>
-      </nav>
+    <nav>
+      <ul>
+        <li><h1 class="h1">Tasks <span class="one">List</span></h1></li>
+      </ul>
+    </nav>
+ 
    
-     
-      <div class="container">
-        <div class="add">
-          <button class="btn">
-         <a href="./page2.html">
+    <div class="container">
+      <div class="add">
+        <button class="btn">
           <div class="button-content">
-          <img src="./plus.png" alt="" class="img1" > <h4>Add New Task</h4>
-        </div>
-      </a> 
-          
-      </button>
-        </div>
-        <div class="cards">
-          <div class="card1">
-              
-            
-            <h3>Trip to Paris</h3>
-            <br>
-            <hr class="line">
-         
-           
-      
-            <br />
-            <div class="inline">
-              <input type="checkbox" checked />
-              <label class="linethrough1">Visit chruch</label>
-            </div>
-            <br />
-  
-            <div class="inline">
-              <input type="checkbox" >
-              <label >
-                    Shopping</label>
-            </div>
-          </div>
-          <div class="card1">
-            <h3>My To Do List</h3>
-            <br>
-            <hr class="line">
-            <br />
-            <div class="inline">
-              <input type="checkbox" checked />
-              <label class="linethrough2">Visit Supermarket</label>
-            </div>
-            <br />
-  
-            <div class="inline">
-              <input type="checkbox" >
-              <label>Buy Vegetables</label>
-            </div>
-          </div>
-          <div class="card1">
-            <h3>Movies i will watch</h3>
-            <br>
-            <hr class="line">
-            <br />
-            <div class="inline">
-              <input type="checkbox" checked />
-              <label class="linethrough2">Stranger Things 4</label>
-            </div>
-            <br />
-  
-            <div class="inline">
-              <input type="checkbox" >
-              <label>Avengers Endgame</label>
-            </div>
-          </div>
-        </div>
-        <br /><br /><br />
-        <div class="lastrow">
-          <div class="card2">
-            <h3>Daily Morning Routine</h3>
-            <br>
-            <hr class="line">
-            <br />
-  
-            <div class="inline">
-              <input type="checkbox" checked />
-              <label class="linethrough3">Wake up at 6 AM</label>
-            </div>
-  
-            <br />
-            <div class="inline">
-              <input type="checkbox" >
-              <label>Sleep at 10 PM</label>
-            </div>
-          </div>
-          <div class="card2">
-            <h3>Books To Read</h3>
-            <br>
-            <hr class="line">
-            <br>
-            <div class="inline">
-              <input type="checkbox" checked >
-              <label class="linethrough2">Desing of Everyday</label>
-            </div>
-            <br>
-            <div class="inline">
-              <input type="checkbox" >
-              <label>AIchemist</label>
-            </div>
-          </div>
-        </div>
-  
-       
-     
-         
+        <img src="./plus.png" alt="" class="img1" > <h4>Add New Task</h4>
       </div>
+    </button>
+      </div>
+
+      <div class="cards">
+        <a href="./page2.html">
+        <div class="card1">
+          <h3>Trip to Paris</h3>
+          
+          <hr class="line hr1" >
+
+       
+         
+    
+          <br />
+          <div class="inline">
+            <input type="checkbox" checked />
+            <label class="linethrough1">Visit chruch</label>
+          </div>
+          <br />
+
+          <div class="inline">
+            <input type="checkbox" >
+            <label >
+                  Shopping</label>
+          </div>
+       
+        </div>
+      </a>
+        <div class="card1">
+          <h3>My To Do List</h3>
+          
+          <hr class="line">
+          <br />
+          <div class="inline">
+            <input type="checkbox" checked />
+            <label class="linethrough2">Visit Supermarket</label>
+          </div>
+          <br />
+
+          <div class="inline">
+            <input type="checkbox" >
+            <label>Buy Vegetables</label>
+          </div>
+        </div>
+        <div class="card1">
+          <h3>Movies i will watch</h3>
+         
+          <hr class="line">
+          <br />
+          <div class="inline">
+            <input type="checkbox" checked />
+            <label class="linethrough2">Stranger Things 4</label>
+          </div>
+          <br />
+
+          <div class="inline">
+            <input type="checkbox" >
+            <label>Avengers Endgame</label>
+          </div>
+        </div>
+      </div>
+      <br /><br /><br />
+      <div class="lastrow">
+        <div class="card2">
+          <h3>Daily Morning Routine</h3>
+       
+          <hr class="line">
+          <br />
+
+          <div class="inline">
+            <input type="checkbox" checked />
+            <label class="linethrough3">Wake up at 6 AM</label>
+          </div>
+
+          <br />
+          <div class="inline">
+            <input type="checkbox" >
+            <label>Sleep at 10 PM</label>
+          </div>
+        </div>
+        <div class="card2">
+          <h3>Books To Read</h3>
+        
+          <hr class="line">
+          <br>
+          <div class="inline">
+            <input type="checkbox" checked >
+            <label class="linethrough2">Desing of Everyday</label>
+          </div>
+          <br>
+          <div class="inline">
+            <input type="checkbox" >
+            <label>AIchemist</label>
+          </div>
+        </div>
+      </div>
+
+     
    
-  </div>
+       
+    </div>
+ 
+</div>
 
 <div class="box">
   <div class="child">
